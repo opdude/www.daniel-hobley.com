@@ -12,3 +12,6 @@ A few of the more interesting and publicly available projects that I have worked
 
 [PressRun](pressrun/) (2010)
 *An interactive magazine platform running on iOS, Android and HTML5 browsers*
+
+[GPGPU With Cellular Automata & A*](dissertation/) (2010)
+*My Univeristy dissertation on GPGPU**
