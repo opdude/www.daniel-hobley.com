@@ -9,6 +9,8 @@ tags:
 This might not be a popular topic but it is something that has been raised a few times by colleagues at Unity. Most developers who work with Windows know that you can elevate yourself from being a non-admin user to being an administrator with elevated rights, but what about dropping back down again so that you can run things as a user with normal rights? Not quite as simple.
 
 So in a perfect world this post would end right here with a simple command line to run, but this isn't a perfect world and there isn't a *simple* way to do this. There are however a number of options depending on how often you want to be doing this task.
+<!-- more -->
+
 
 One of my favorite ways to do this is to use the task scheduler (it's the simplest option I know without having to write your own C++ application), with this you can run things as an elevated or normal user without working too hard to do it. If you want to run a specific task again and again always as a normal user then you can create your self a task by creating a task either programatically or manually with the task scheduler.
 

@@ -8,8 +8,8 @@ tags:
 
 Managing things with SaltStack can be a real walk in the park but some things are not quite as obvious when you first start out. One thing I've been asked to explain is how I manage setting IPs for networking adapters on our servers. 
 
-With out recent move to our new hosting center all of our servers are being re-built to using SaltStack and with this the opportunity came to design a system that could determine how all the networking, DHCP and DNS settings could be set in a single simple location. 
-
+With out recent move to our new hosting center all of our servers are being re-built to using SaltStack and with this the opportunity came to design a system that could determine how all the networking, DHCP and DNS settings could be set in a single simple location.
+<!-- more -->
 
 First we start out with setting some basic info about our staging network into a jinja2 file that will be imported later.
 
