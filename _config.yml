@@ -65,6 +65,9 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: bootstrap-blog
 
+# Comments
+disqus_shortname: danielhobley
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
