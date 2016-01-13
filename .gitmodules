@@ -1,3 +1,6 @@
 [submodule "themes/landscape"]
 	path = themes/landscape
 	url = https://github.com/hexojs/hexo-theme-landscape.git
+[submodule "themes/bootstrap-blog"]
+	path = themes/bootstrap-blog
+	url = https://github.com/opdude/hexo-theme-bootstrap-blog.git
