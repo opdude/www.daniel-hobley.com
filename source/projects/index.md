@@ -14,4 +14,7 @@ A few of the more interesting and publicly available projects that I have worked
 *An interactive magazine platform running on iOS, Android and HTML5 browsers*
 
 [GPGPU With Cellular Automata & A*](dissertation/) (2010)
-*My Univeristy dissertation on GPGPU**
+*My Univeristy dissertation on GPGPU*
+
+[G15 Stats](g15stats/) (2010)
+*A C++ program capable of showing statistics of your computer on a G15 keyboard*
