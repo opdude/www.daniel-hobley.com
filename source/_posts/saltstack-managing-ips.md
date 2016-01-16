@@ -12,8 +12,7 @@ With out recent move to our new hosting center all of our servers are being re-b
 <!-- more -->
 
 First we start out with setting some basic info about our staging network into a jinja2 file that will be imported later.
-
-```jinja2 /srv/pillar/network/map.jinja2
+``` jinja /srv/pillar/network/map.jinja2
 {%  set production = {
         'address': '192.168.0.1',
         'gateway': '192.168.0.1',
@@ -33,7 +32,7 @@ First we start out with setting some basic info about our staging network into a
 
 Next we add some servers adding the networking info to each of the servers so that we can get the general information directly from the minions pillars.
 
-```jinja2 /srv/pillar/network/map.jinja2
+``` jinja /srv/pillar/network/map.jinja2
 {%  set nics = {
     'dhcp-01': [
         {'id': 'eth0', 'ip': '192.168.0.2', 'env': production},
@@ -56,7 +55,7 @@ Next we add some servers adding the networking info to each of the servers so th
 
 Now we have a basic structure that we can import and use to produce pillar information.
 
-```yaml /srv/pillar/network/init.sls
+```jinja /srv/pillar/network/init.sls
 
 # Set our basic domain and fqdn settings
 {% set domain = "my.domain.com" %}
