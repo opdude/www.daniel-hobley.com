@@ -17,9 +17,9 @@ One of my favorite ways to do this is to use the task scheduler (it's the simple
 As I'm a developer I'll show you the more interesting way of doing this by creating it with the command line.
 
 
-```bat
-schtasks /Create /SC ONCE /TR "echo 'Your cool command here'" /IT /ST 00:00 /SD 01/01/2000 /TN "My Task"
-```
+{% codeblock lang:bat line_number:false create_task.bat https://msdn.microsoft.com/en-us/library/windows/desktop/bb736357(v=vs.85).aspx schtasks %}
+schtasks /Create /SC ONCE /TR "echo 'Your command here'" /IT /ST 00:00 /SD 01/01/2000 /TN "My Task"
+{% endcodeblock %}
 
 So what does this do? Lets discuss the more interesting of the flags.
 
@@ -35,9 +35,9 @@ These flags define when the task is ran I picked a random date as we only really
 
 Now that we have created our task we need to be able to run it, you can do that with this simple command.
 
-```bat
+{% codeblock lang:bat line_number:false create_task.bat https://msdn.microsoft.com/en-us/library/windows/desktop/bb736357(v=vs.85).aspx schtasks %}
 schtasks /Run /TN "My Task"
-```
+{% endcodeblock %}
 
 And that's it your task will now run as the currently logged in user without elevation. Neat huh? Okay I know you can only run a static command with this. What about if you want to change your command each time you run it?
 
