@@ -1,6 +1,7 @@
 ---
 title: GPGPU With Cellular Automata & A*
 date: 2016-01-10 19:25:29
+author: Daniel Hobley
 ---
 
 # Introduction

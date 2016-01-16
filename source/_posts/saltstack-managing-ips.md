@@ -1,6 +1,7 @@
 ---
 title: Managing IPs with SaltStack
 date: 2016-01-08 19:59:16
+author: Daniel Hobley
 tags: 
 - SaltStack
 - Tips

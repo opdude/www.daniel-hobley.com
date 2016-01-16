@@ -1,6 +1,7 @@
 ---
 title: SaltStack
 date: 2016-01-08 19:40:14
+author: Daniel Hobley
 ---
 
 [SaltStack](http://www.saltstack.com) is an open source systems & configuration management software which is built on Python. During my time at Unity Technologies I've been the sole developer moving our whole build farm infrastructure from thick deployment disks (with everything pre-installed) to thin disks which install all required software automagically using SaltStack. 

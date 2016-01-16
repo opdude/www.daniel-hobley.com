@@ -1,6 +1,7 @@
 ---
 title: G15 Stats
 date: 2016-01-16 12:29:28
+author: Daniel Hobley
 ---
 
 While creating & playing games I’m always curious to see some certain stats about my PC, things like CPU load and RAM usage so I can tell whether something is going wrong or whether a games usage is too high. This was possible using some applications for the LCD on my G15 Keyboard that came with the keyboard, however they didn’t include all the information that I wanted to know, for example there was no hard drive usage value, or network usage.

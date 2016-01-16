@@ -1,6 +1,7 @@
 ---
 title: How to Drop Administrator Elevation Rights on Windows
 date: 2016-01-10 15:20:19
+author: Daniel Hobley
 tags:
 - Windows
 - Tips
