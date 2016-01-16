@@ -18,3 +18,6 @@ A few of the more interesting and publicly available projects that I have worked
 
 [G15 Stats](g15stats/) (2010)
 *A C++ program capable of showing statistics of your computer on a G15 keyboard*
+
+[OpiConsole](opiconsole/) (2010)
+*A XNA based console for development based debugging and functionality*

@@ -1,6 +1,7 @@
 ---
 title: Katana
 date: 2016-01-10 14:54:18
+author: Daniel Hobley
 ---
 
 Katana is an open source Continuous Integration server based on the BuildBot project. It is used at Unity Technologies by our 200+ developers daily and currently supports over 500 build configurations and multiple thousands of builds per day. Although Katana is based on the BuildBot project a lot of the features built for Katana have been influenced by Unity previous experience with TeamCity, where the front-end has a far greater focus. The reason for this is that at Unity we follow more of a frequent integration due to the complexity of our build processes (each push from a development branch to trunk can take multiple hours with hundreds of builds), which requires much more input and understanding from our developers with the build process. This required us to implement features that help to make the experience with our CI software better for all our developers.
