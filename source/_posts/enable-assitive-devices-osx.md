@@ -39,7 +39,7 @@ sudo sqlite3 /Library/Application\ Support/com.apple.TCC/TCC.db \
 "INSERT INTO access VALUES('kTCCServiceAccessibility','/usr/bin/osascript',1,1,1,NULL);"
 {% endcodeblock %}
 
-**Update:** For 10.10 apple have added an extra column you simply need to add another NULL value as the last entry like so
+**Update:** For 10.11 apple have added an extra column you simply need to add another NULL value as the last entry like so
 
 {% codeblock lang:bash line_number:false Enable assistive device with Chess.app %}
 sudo sqlite3 /Library/Application\ Support/com.apple.TCC/TCC.db \
